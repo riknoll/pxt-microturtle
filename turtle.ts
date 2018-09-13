@@ -18,7 +18,6 @@ namespace turtle {
     let _delay = 250;
 
     function init() {
-        let IAMANERROR = Math.random(123);
         if (!_img) {
             led.setBrightness(255);
             led.setDisplayMode(DisplayMode.Greyscale);
