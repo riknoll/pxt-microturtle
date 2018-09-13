@@ -18,6 +18,7 @@ namespace turtle {
     let _delay = 250;
 
     function init() {
+        let IAMANERROR = Math.random(123);
         if (!_img) {
             led.setBrightness(255);
             led.setDisplayMode(DisplayMode.Greyscale);
@@ -131,7 +132,7 @@ namespace turtle {
     }
 
     /**
-     * Moves the turtle to the center of the screen 
+     * Moves the turtle to the center of the screen
      */
     //% blockGap=8
     //% blockId=turtleHome block="home"
@@ -140,7 +141,7 @@ namespace turtle {
         _direction = 3;
     }
 
-    /** 
+    /**
      * Sets the brightness
      * @param brightness the brightness of the trail left by the turtle, eg: 128
      */
